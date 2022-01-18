@@ -13,8 +13,8 @@ SECTION = "lib"
 inherit pkgconfig cmake ptest
 
 S = "${WORKDIR}/git"
-SRCREV = "145c4b50196ac90ec1b946fb80cb5cef6e7d2d35"
-SRC_URI = "git://github.com/oneapi-src/oneDNN.git;branch=rls-v2.4;protocol=https \
+SRCREV = "a9302535553c73243c632ad3c4c80beec3d19a1e"
+SRC_URI = "git://github.com/oneapi-src/oneDNN.git;branch=rls-v2.5;protocol=https \
            file://run-ptest \
            "
 
